@@ -1,0 +1,20 @@
+/* .container p {
+    background-color: #FFFF00;
+    color: rgb(255, 0, 0);
+    font: 20px;
+    text-align: center;
+} */
+
+/* .container .text {
+    background-color: #FFFF00;
+    color: rgb(255, 0, 0);
+    font: 20px;
+    text-align: center;
+} */
+
+div p {
+    background-color: #FFFF00;
+    color: rgb(255, 0, 0);
+    font: 20px;
+    text-align: center;
+}
