@@ -7,15 +7,24 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 32px; 
+  margin: 12px;
+  /* MY PIXEL GUESS */
+  /* 
+  padding: 30px; 
+  margin: 10px;
+  */
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 48px;
+  /*
+  MY PIXEL GUESS
+  margin-bottom: 40px;
+  */
 }
 
 .three {
@@ -23,6 +32,10 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 30px;
+  margin-left: auto;
+  /* 
+  MY GUESS, DID THE MATH INSTEAD OF USING AUTO
+  margin-left: 334px; 
+  */
 }
