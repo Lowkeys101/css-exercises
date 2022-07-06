@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -29,22 +30,10 @@ img {
 
 .content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.plants {
-  display: flex;
-  /* gussed 50px instead of 52px from picture */
+  justify-content: center;
   gap: 52px;
 }
 
-.text {
-  /* gussed correct width from picture */
-  width: 200px;
-  text-align: center;
-}
 .plant-subsection {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  max-width: 200px;
 }
