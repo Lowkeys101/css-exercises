@@ -10,6 +10,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  /* guessed 30px instead of 32px from picture */
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +25,26 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plants {
+  display: flex;
+  /* gussed 50px instead of 52px from picture */
+  gap: 52px;
+}
+
+.text {
+  /* gussed correct width from picture */
+  width: 200px;
+  text-align: center;
+}
+.plant-subsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
