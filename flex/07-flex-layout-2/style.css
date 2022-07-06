@@ -10,12 +10,13 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
-  font-size: 28px;
+  /* gueesed 28px instead of 32px */
+  font-size: 32px;
   font-weight: 900;
   display: flex;
   align-items: center;
-  padding-left: 8px;
 
+  padding: 0 16px;
 }
 
 .footer {
@@ -31,15 +32,16 @@ body {
   width: 300px;
   background: royalblue;
   flex-shrink: 0;
+  padding: 16px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  width: 25%;
+  width: 300px;
   padding: 16px;
-  font-size: 18px;
+  margin: 16px;
 }
 
 .wrapper {
@@ -50,8 +52,7 @@ body {
 .content {
   display: flex;
   flex-wrap: wrap;
-  margin: 50px;
-  gap: 25px;
+  padding: 32px;
 }
 
 ul {
@@ -63,8 +64,9 @@ ul {
 a {
   color: white;
   text-decoration: none;
+  font-size: 24px;
 }
 
 li {
-  padding: 8px;
+  margin-bottom: 16px;
 }
