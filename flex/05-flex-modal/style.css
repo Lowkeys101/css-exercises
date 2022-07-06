@@ -72,21 +72,23 @@ button.cancel {
 }
 
 .header {
-  font-weight: 700;
-  /* guessed 22px font size instead of 18px */
-  font-size: 18px;
-}
-
-.header-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-weight: 700;
+  /* guessed 22px font size instead of 18px */
+  font-size: 18px;
+  margin-bottom: 8px;
 }
 
 .text {
-  margin: 8px 0 16px;
+  margin-bottom: 16px;
 }
 
 .continue {
   font-weight: 700;
+}
+
+.icon {
+  flex-shrink: 0;
 }
